@@ -1,61 +1,104 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" type:"txt/css" href="style.css"
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rhenan Matias</title>
-    
-    <style>
-        .font-family {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: #669bbc;
-        }
-
-        .tamanho {
-            font-size: larger;
-        }
-
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
+    <header id="cabecalho">
 
-    <a href="#sobre">Sobre mim</a> <br>
-    <a href="#habilidades">Habilidades</a> <br>
-    <a href="#sociais">Redes Sociais</a>
+        <h1 id="titulo">
+            Titulo
+        </h1>
 
-    <h1 class="font-family">Rhenan Matias</h1>
+    </header>
     
-    <img src="foto-perfil.jpg" alt="minha foto de perfil" width="250px">
+    <div>
+        <img id="minha_foto" src="img/minha-foto.jpg" alt="Minha foto">
+        <br>
+    </div>
 
-    <p id="sobre" class="font-family"> <strong>Estudante de Desenvolvimento Web na Trybe</strong>. Tenho 26 anos, sou nascido e criado no Rio de Janeiro.<br>
-        Que, no tempo livre, adora sair para fazer registros fotográficos.
+    <div>
+        <table>
+            <a href="https://github.com/RhenanMatias" target="_blank"> 
+                Rhenan Matias
+            </a>
+        </table>
+    </div>
 
-    </p>
+    <div>
+        <article>
+            <h2>
+                Sobre mim
+            </h2>
+                <section>
+                    <p>
+                        Nascido e criado no Rio de Janeiro e sou fascinado por arte. Já fiz aulas de desenho, música, fotografia e até artes marciais, no qual eu sou <strong>faixa preta</strong>. Hoje estou me aventurando no desenvolvimento web pela <a href="https://www.betrybe.com/"> <em>Trybe</em></a>.
+                    </p>
+                </section>
+        </article>
+    </div>
+
+        <h2>
+            Breve descrição sobre meus aprendizados
+        </h2>
+            <aside>
+                <p>
+                    Uma pessoa curiosa, em busca de conhecimento e crescimento pessoal, com paixão por aprender e explorar novas ideias e perspectivas.
+                </p>
+            </aside>
+
+    <div class="lado-esquerdo">
+            <h2>
+                Lições
+            </h2>
+                <ol id="licoes_aprendidas">
+                    <li>Unix</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Empatia</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                    <li>Slack</li>
+                    <li>Zoom</li>
+                    <li>HTML Semantic</li>
+                    <li>Inspect</li>
+                </ol>
+    </div>
     
-    <h2 id="habilidades">Habilidades</h2>
-    
-    <ol>
-        <li class="tamanho"><strong>GIT & GITHUB</strong></li>
-        <br>
-        <li class="tamanho">HTML</li>
-        <br>
-        <li class="tamanho">CSS</li>
-        <br>
-        <li class="tamanho">JAVASCRIPT</li>
-        <br>
-    </ol>
-    <h3 id="sociais">Redes Sociais</h3>
-    <br>
-    <a href="https://www.linkedin.com/in/rhenanmatias/" target="_blank"> <em>Linkedin</em></a>
-    <br>
-    <a href="https://github.com/RhenanMatias" target="_blank"> <em>GitHub</em></a>
+    <div class="lado-direito">
+         <h2>
+            Licões a Aprender
+        </h2>
+        
+        <ul id="licoes_a_aprender">
+            <li>REACT</li>
+            <li>Node.js</li>
+            <li>DOM</li>
+            <li>MySQL</li>
+            <li>Soft Skills</li>
+            <li>SQL</li>
+            <li>Back-end</li>
+            <li>Banco de dados</li>
+            <li>C#</li>
+            <li>Python</li>
+        </ul>
+    </div>
 
+    <footer id="rodape">
+        <h2>
+            Redes sociais
+        </h2>
+        <p>
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
 </body>
 </html>
