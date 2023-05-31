@@ -1,0 +1,19 @@
+#container {
+    height: auto;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacao a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 20px;
+    text-decoration: none;
+}
